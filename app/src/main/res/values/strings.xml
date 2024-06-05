@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OneClickDrive</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="enter_values">Enter Values (Eg: 1, 2, 3) </string>
+    <string name="calculate">Calculate</string>
+    <string name="intersect_numbers">Intersect Numbers: %1s</string>
+    <string name="union_numbers">Union Numbers: %1s</string>
+    <string name="highest_numbers">Highest Numbers: %1s</string>
+</resources>

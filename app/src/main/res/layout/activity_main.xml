@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input1"
+        style="@style/InputTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/input_padding"
+        android:hint="@string/enter_values" />
+
+    <EditText
+        android:id="@+id/input2"
+        style="@style/InputTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/input_padding"
+        android:hint="@string/enter_values" />
+
+    <EditText
+        android:id="@+id/input3"
+        style="@style/InputTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/input_padding"
+        android:hint="@string/enter_values" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/input_padding"
+        android:text="@string/calculate" />
+
+    <LinearLayout
+        android:id="@+id/layout_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/text_intersection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_padding"
+            android:text="@string/intersect_numbers"
+            android:textColor="@color/colorIntersection" />
+
+        <TextView
+            android:id="@+id/text_union"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_padding"
+            android:text="@string/union_numbers"
+            android:textColor="@color/colorUnion" />
+
+        <TextView
+            android:id="@+id/text_highest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_padding"
+            android:text="@string/highest_numbers"
+            android:textColor="@color/colorHighest" />
+
+    </LinearLayout>
+</LinearLayout>
